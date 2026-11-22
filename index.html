@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northshore Roof Restorations</title>
+<meta name="description" content="Roof restorations, leak repairs and Colorbond re-roofing across Perth's northern suburbs. Owner-operated, licensed and insured, with free written quotes and a 10-year warranty.">
+<meta property="og:title" content="Northshore Roofing · Perth Roof Restorations">
+<meta property="og:description" content="Free written quotes, instant price estimates and a 10-year workmanship warranty.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"RoofingContractor","name":"Northshore Roofing","telephone":"0491 570 156","areaServed":["Joondalup","Hillarys","Sorrento","Duncraig","Kingsley","Scarborough"],"address":{"@type":"PostalAddress","addressLocality":"Heathridge","addressRegion":"WA","addressCountry":"AU"},"openingHours":"Mo-Sa 07:00-18:00","priceRange":"$$"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE trade website: confident, local, no-nonsense
+   IDEA the roof itself: terracotta tile rows and Colorbond sheet as the page's texture
+   PICTURE a Perth home under a hot sky whose roof restores itself as you scroll
+   COLOUR white ground, charcoal ink, terracotta lead, Perth sky blue support
+   TYPE Barlow Condensed (trade signage) + Barlow
+   LAYOUT laptop: scene full-bleed, title in the sky corner; phone: title, scene, sticky call bar */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#121416);--ink:light-dark(#1b1f22,#eef1f3);--mute:light-dark(#5a6166,#a9b1b7);--terra:light-dark(#c2502c,#e5703f);--terra2:light-dark(#9c3c1f,#c2502c);--sky:light-dark(#1f6fb2,#4d9be0);--soft:light-dark(#f6f1ec,#1b1e21);--line:light-dark(#e4ded8,#2b3034);--card:light-dark(#ffffff,#181b1e)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Barlow,system-ui,sans-serif;overflow-x:clip}
+img,svg{max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:"Barlow Condensed",Barlow,sans-serif;line-height:1.05;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h1{font-size:clamp(40px,6vw,72px);font-weight:800}
+h2{font-size:clamp(32px,4vw,48px);font-weight:800}
+h3{font-size:24px;font-weight:700}
+p{margin:0}
+.band{padding-block:clamp(40px,6vw,88px);padding-inline:max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+.lead{color:var(--mute);font-size:17px;margin-top:14px}
+.demo{background:var(--ink);color:var(--bg);font-size:13px;text-align:center;padding:6px 16px}
+.prog{position:fixed;top:0;left:0;height:4px;width:100%;background:var(--terra);transform-origin:0 50%;transform:scaleX(var(--s,0));z-index:40}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:20px;padding:12px max(5vw,16px);flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font:800 22px/1 "Barlow Condensed",sans-serif;margin-right:auto}
+.logo span{color:var(--terra)}
+.nav nav{display:flex;gap:18px;flex-wrap:wrap}
+.nav nav a{text-decoration:none;font-weight:600;color:var(--mute)}
+.nav nav a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:10px;font:700 17px/1 Barlow,sans-serif;text-decoration:none;border:0;cursor:pointer;white-space:nowrap;transition:transform .15s,background .15s}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,.chip:focus-visible,.opt:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.primary{background:var(--terra);color:#fff}
+.primary:hover{background:var(--terra2)}
+.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.hero{position:relative;background:linear-gradient(#cfe6f7,#eaf4fb 70%);overflow:hidden}
+:root[data-theme=dark] .hero{background:linear-gradient(#0e2238,#1a3550 70%)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .hero{background:linear-gradient(#0e2238,#1a3550 70%)}}
+.scene{display:block;width:100%;height:clamp(440px,52vw,640px)}
+.htext{position:absolute;top:clamp(28px,5vw,64px);left:max(5vw,16px);max-width:min(560px,46%)}
+.htext p{font-size:19px;margin-top:16px}
+.acts{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.stars{display:flex;align-items:center;gap:8px;margin-top:20px;font-weight:600}
+.stars b,.rev b{color:#e8a317;letter-spacing:2px}
+.trust{background:var(--ink);color:var(--bg)}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:22px max(5vw,16px)}
+.trust div{display:flex;gap:12px;align-items:center;font-weight:600}
+.trust svg{flex:none;width:30px;height:30px;color:var(--terra)}
+.head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:end;margin-bottom:36px}
+.head p{color:var(--mute);font-size:17px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;display:grid;gap:10px;align-content:start;transition:transform .25s,box-shadow .25s}
+.svc:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
+.svc svg{width:52px;height:52px}
+.card p{color:var(--mute)}
+.from{font-weight:700;color:var(--terra);white-space:nowrap}
+.soft{background:var(--soft)}
+.split{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:center}
+.ba{position:relative;aspect-ratio:16/10;border-radius:16px;overflow:hidden;touch-action:pan-y}
+.ba svg{position:absolute;inset:0;width:100%;height:100%}
+.ba .after{clip-path:inset(0 0 0 var(--p,50%))}
+.ba .bar{position:absolute;top:0;bottom:0;left:var(--p,50%);width:3px;margin-left:-1.5px;background:#fff;pointer-events:none}
+.ba .bar::after{content:"⇆";position:absolute;top:50%;left:50%;width:44px;height:44px;margin:-22px;border-radius:50%;background:#fff;color:#1b1f22;display:grid;place-items:center;font-weight:700;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.tag{position:absolute;top:14px;padding:4px 12px;border-radius:999px;background:rgba(0,0,0,.6);color:#fff;font-weight:700;font-size:14px;pointer-events:none}
+.ticks{display:grid;gap:14px;margin:24px 0 0;padding:0;list-style:none}
+.ticks li{display:flex;gap:12px}
+.ticks li::before{content:"";flex:none;width:22px;height:22px;margin-top:2px;border-radius:50%;background:var(--terra) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12l4 4 8-8' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E") center/16px no-repeat}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+.chip{min-height:44px;padding:0 18px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);font:600 16px Barlow,sans-serif;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.gal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.shot{border:0;padding:0;background:none;text-align:left;cursor:zoom-in;color:inherit;font:inherit;display:grid;gap:8px}
+.shot svg{width:100%;aspect-ratio:4/3;border-radius:12px;display:block;transition:transform .35s}
+.shot:hover svg{transform:scale(1.03)}
+.shot span{font-weight:700}.shot small{color:var(--mute)}
+.shot.hide{display:none}
+.lb{position:fixed;inset:0;z-index:60;background:rgba(10,12,14,.88);display:none;place-items:center;padding:24px}
+.lb.on{display:grid}
+.lb svg{width:min(960px,100%);aspect-ratio:4/3;border-radius:14px}
+.lb p{color:#fff;font-weight:600;margin-top:12px;text-align:center}
+.lb button{position:absolute;top:16px;right:16px;width:48px;height:48px;border-radius:50%;border:0;background:#fff;font-size:24px;cursor:pointer}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.step{border-top:4px solid var(--terra);padding-top:18px;display:grid;gap:8px;align-content:start}
+.step b{font:800 44px/1 "Barlow Condensed",sans-serif;color:var(--terra)}
+.step p{color:var(--mute)}
+.check{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;max-width:560px}
+.check input{flex:1 1 220px}
+.res{margin-top:14px;font-weight:700;min-height:26px}
+.areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.areas span{padding:8px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-weight:600}
+.note{font-size:13px;color:var(--mute);margin-top:16px}
+.quote{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:48px;align-items:start}
+.contact{display:grid;gap:14px;margin-top:24px}
+.contact div{display:flex;gap:10px;align-items:center;font-weight:600;font-size:18px;overflow-wrap:anywhere}
+.wiz{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:clamp(20px,3vw,32px)}
+.dots{display:flex;gap:8px;margin-bottom:18px}
+.dots i{flex:1;height:6px;border-radius:3px;background:var(--line);transition:background .3s}
+.dots i.on{background:var(--terra)}
+.pane{display:none;gap:16px}
+.pane.on{display:grid;animation:in .35s ease}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.opt{min-height:56px;padding:10px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:600 16px Barlow,sans-serif;text-align:left;cursor:pointer}
+.opt[aria-pressed=true]{border-color:var(--terra);background:color-mix(in srgb,var(--terra) 10%,var(--bg))}
+.est{background:var(--soft);border-radius:12px;padding:18px}
+.est b{display:block;font:800 clamp(32px,5vw,44px)/1.05 "Barlow Condensed",sans-serif;color:var(--terra);white-space:nowrap}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+label{display:grid;gap:6px;font-weight:600;font-size:15px}
+input,select,textarea{font:16px Barlow,sans-serif;color:var(--ink);background:var(--bg);border:1.5px solid var(--line);border-radius:10px;padding:12px 14px;min-height:48px;width:100%}
+textarea{min-height:96px;resize:vertical}
+.nav2{display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.err{color:#c62828;font-weight:600;min-height:20px;font-size:15px}
+.done{text-align:center;padding:12px 0;justify-items:center}
+.done h3{margin:10px 0}
+.pay{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.pay span{padding:6px 12px;border-radius:8px;border:1px solid var(--line);font-weight:700;font-size:14px;background:var(--bg)}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+details summary{cursor:pointer;font-weight:700;font-size:18px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+details summary::after{content:"+";color:var(--terra);font-size:24px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin-top:10px;color:var(--mute);max-width:70ch}
+footer{background:#1b1f22;color:#d7dcdf}
+footer .wrap{display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:32px}
+footer h3{color:#fff;margin-bottom:10px}
+footer p{color:#a9b1b7}
+.fab{position:fixed;right:18px;bottom:18px;z-index:30;width:60px;height:60px;border-radius:50%;background:var(--terra);color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25);text-decoration:none}
+.mbar{display:none}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+@media(prefers-reduced-motion:no-preference){
+.js .rv{opacity:0;transform:translateY(36px);transition:opacity .7s ease,transform .7s ease}
+.js .rv.in{opacity:1;transform:none}
+.js .rv:nth-child(2){transition-delay:.08s}.js .rv:nth-child(3){transition-delay:.16s}.js .rv:nth-child(4){transition-delay:.24s}.js .rv:nth-child(5){transition-delay:.32s}.js .rv:nth-child(6){transition-delay:.4s}
+.htext>*{animation:in .8s ease both}.htext>*:nth-child(2){animation-delay:.12s}.htext>*:nth-child(3){animation-delay:.24s}.htext>*:nth-child(4){animation-delay:.36s}}
+@media(prefers-reduced-motion:reduce){.pane.on{animation:none}html{scroll-behavior:auto}}
+@media(max-width:900px){.grid3,.gal{grid-template-columns:repeat(2,minmax(0,1fr))}.steps,.trust .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.split,.quote,.head{grid-template-columns:minmax(0,1fr)}.head{gap:12px}footer .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.htext{position:static;max-width:none;padding:28px max(5vw,16px) 0}.scene{height:300px}.nav nav,.nav .btn{display:none}}
+@media(max-width:600px){.grid3,.gal,.steps,.row,footer .wrap{grid-template-columns:minmax(0,1fr)}.mbar{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line)}.fab{display:none}body{padding-bottom:72px}}
+</style>
+</head>
+<body>
+<div class="prog" id="prog"></div>
+<div class="demo">Demo website design · sample business, prices and reviews for illustration</div>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="#top" aria-label="Northshore Roofing home"><svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><path d="M3 18L17 5l14 13" fill="none" stroke="var(--terra)" stroke-width="4" stroke-linejoin="round"/><path d="M8 17v12h18V17" fill="none" stroke="currentColor" stroke-width="3"/></svg>Northshore <span>Roofing</span></a>
+    <nav><a href="#services">Services</a><a href="#work">Our work</a><a href="#areas">Areas</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a></nav>
+    <a class="btn primary" href="#quote" data-track="nav_quote">Instant estimate</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="htext">
+    <h1>Perth roof restorations, done properly the first time</h1>
+    <p>For homeowners with leaks, faded tiles or crumbling ridge caps. Owner on every job, a price estimate in 30 seconds and a written quote within 48 hours.</p>
+    <div class="acts"><a class="btn primary" href="#quote" data-track="hero_quote">Get my price estimate</a><a class="btn ghost" href="tel:0491570156" data-track="hero_call">Call 0491 570 156</a></div>
+    <div class="stars"><b>★★★★★</b> 5.0 from local homeowners</div>
+  </div>
+  <svg class="scene" id="scene" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMax slice" role="img" aria-label="A Perth home whose tiled roof is being restored">
+    <defs>
+      <pattern id="tNew" width="26" height="16" patternUnits="userSpaceOnUse"><rect width="26" height="16" fill="#c2502c"/><path d="M0 16 Q6.5 4 13 16 Q19.5 4 26 16" fill="#d8673d"/><path d="M0 16h26" stroke="#8f3518" stroke-width="2"/></pattern>
+      <pattern id="tOld" width="26" height="16" patternUnits="userSpaceOnUse"><rect width="26" height="16" fill="#8a6a5a"/><path d="M0 16 Q6.5 4 13 16 Q19.5 4 26 16" fill="#9b7b68"/><path d="M0 16h26" stroke="#5e463a" stroke-width="2"/><circle cx="7" cy="12" r="2.5" fill="#6f7d4a" opacity=".8"/></pattern>
+      <pattern id="tSheet" width="20" height="40" patternUnits="userSpaceOnUse"><rect width="20" height="40" fill="#4a5258"/><rect width="6" height="40" fill="#5d666d"/></pattern>
+      <linearGradient id="wall" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f3e8dc"/><stop offset="1" stop-color="#e2d2c0"/></linearGradient>
+      <clipPath id="roofClip"><path d="M560 300 L820 150 L1080 300 Z"/></clipPath>
+    </defs>
+    <g id="sun"><circle cx="1080" cy="80" r="46" fill="#ffd86b" opacity=".9"/></g>
+    <path d="M0 420 Q200 380 420 400 T820 390 T1200 400 V600 H0Z" fill="#9fbf8a" opacity=".55"/>
+    <g fill="#5f8a55" opacity=".7"><ellipse cx="120" cy="400" rx="70" ry="50"/><ellipse cx="220" cy="410" rx="50" ry="40"/><ellipse cx="1150" cy="380" rx="60" ry="70"/></g>
+    <rect x="0" y="470" width="1200" height="130" fill="#7fa66a"/>
+    <rect x="600" y="300" width="440" height="180" fill="url(#wall)"/>
+    <rect x="600" y="300" width="440" height="14" fill="#000" opacity=".08"/>
+    <g clip-path="url(#roofClip)"><rect x="540" y="140" width="560" height="170" fill="url(#tOld)"/><rect id="newRoof" x="540" y="140" width="280" height="170" fill="url(#tNew)"/><path d="M820 150 L1080 300 L1080 150Z" fill="#fff" opacity=".08"/><path d="M560 300 L820 150 L820 300Z" fill="#000" opacity=".1"/></g>
+    <path d="M560 300 L820 150 L1080 300" fill="none" stroke="#8f3518" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M550 304 H1090" stroke="#3b4247" stroke-width="10"/>
+    <g fill="#9fc6e6" stroke="#fff" stroke-width="6"><rect x="640" y="350" width="110" height="80"/><rect x="890" y="350" width="110" height="80"/></g>
+    <path d="M695 350v80M640 390h110M945 350v80M890 390h110" stroke="#fff" stroke-width="4"/>
+    <rect x="785" y="360" width="70" height="120" fill="#3b4247"/><circle cx="842" cy="422" r="4" fill="#e5c36b"/>
+    <g stroke="#b9bfc3" stroke-width="6"><path d="M1110 480 L1052 220"/><path d="M1140 480 L1082 220"/></g>
+    <g stroke="#b9bfc3" stroke-width="4"><path d="M1104 452h30M1097 420h30M1090 388h30M1083 356h30M1076 324h30M1069 292h30M1062 260h30"/></g>
+    <rect x="806" y="485" width="28" height="115" fill="#d9cfc4"/>
+  </svg>
+</section>
+
+<section class="trust"><div class="wrap">
+  <div class="rv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M8 12l3 3 5-6"/></svg>Licensed &amp; fully insured</div>
+  <div class="rv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 14L7 22l5-3 5 3-1.5-8"/></svg>10-year workmanship warranty</div>
+  <div class="rv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Fixed written quotes</div>
+  <div class="rv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Leak call-outs within 24h</div>
+</div></section>
+
+<section class="band" id="services"><div class="wrap">
+  <div class="head rv"><h2>Everything your roof needs, from one local crew</h2><p>Every job is quoted in writing with photos of what we found, so you know exactly what you're paying before we start.</p></div>
+  <div class="grid3" id="svcs"></div>
+</div></section>
+
+<section class="band soft" id="results"><div class="wrap split">
+  <div class="ba rv" id="ba">
+    <svg viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="800" height="500" fill="url(#tOld)"/><g fill="#6f7d4a" opacity=".55"><ellipse cx="180" cy="160" rx="90" ry="40"/><ellipse cx="520" cy="320" rx="120" ry="50"/><ellipse cx="660" cy="120" rx="60" ry="30"/></g><path d="M0 250 H800" stroke="#5e463a" stroke-width="18"/><g stroke="#3d2c24" stroke-width="3"><path d="M300 240l20 -30M330 260l-25 25M610 245l15 25"/></g></svg>
+    <svg class="after" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="800" height="500" fill="url(#tNew)"/><path d="M0 250 H800" stroke="#8f3518" stroke-width="18"/><path d="M0 0 L800 0 L800 500Z" fill="#fff" opacity=".07"/></svg>
+    <div class="bar"></div>
+    <span class="tag" style="left:14px">Before</span><span class="tag" style="right:14px">After</span>
+    <input type="range" id="baRange" min="0" max="100" value="50" aria-label="Drag to compare the roof before and after restoration">
+  </div>
+  <div class="rv">
+    <h2>Drag to see the difference</h2>
+    <p class="lead">A typical restoration on a 30-year-old tiled roof in Perth's northern suburbs, finished in three days.</p>
+    <ul class="ticks"><li>High-pressure clean to strip moss, lichen and grime</li><li>Cracked tiles replaced, ridge caps rebedded and flexibly repointed</li><li>Primer plus two coats of roof membrane in your choice of colour</li><li>Gutters cleared and the site left spotless</li></ul>
+  </div>
+</div></section>
+
+<section class="band" id="work"><div class="wrap">
+  <div class="head rv"><h2>Recent jobs</h2><p>Filter by job type and tap any project to see it up close.</p></div>
+  <div class="chips rv" id="chips" role="group" aria-label="Filter projects"></div>
+  <div class="gal" id="gal"></div>
+  <p class="note">Illustrations stand in for real job photos on the live site.</p>
+</div></section>
+
+<section class="band soft"><div class="wrap">
+  <div class="head rv"><h2>How a job runs</h2><p>No pushy sales visits. You deal with the person doing the work, start to finish.</p></div>
+  <div class="steps" id="steps"></div>
+</div></section>
+
+<section class="band" id="areas"><div class="wrap split">
+  <div class="rv">
+    <h2>Do we cover your suburb?</h2>
+    <p class="lead">We service Perth's northern and coastal suburbs, from Scarborough up to Clarkson.</p>
+    <div class="check"><input id="sub" list="subList" placeholder="Start typing your suburb" aria-label="Your suburb" autocomplete="off"><button class="btn primary" id="subBtn" type="button">Check</button></div>
+    <datalist id="subList"></datalist>
+    <p class="res" id="subRes" role="status"></p>
+  </div>
+  <div class="areas rv" id="areaList"></div>
+</div></section>
+
+<section class="band soft" id="reviews"><div class="wrap">
+  <div class="head rv"><h2>What homeowners say</h2><p>Real Google reviews appear here on the live site, updated automatically.</p></div>
+  <div class="grid3" id="revs"></div>
+  <p class="note">Sample reviews shown to illustrate the layout.</p>
+</div></section>
+
+<section class="band" id="quote"><div class="wrap quote">
+  <div class="rv">
+    <h2>Your price in 30 seconds, then a fixed written quote</h2>
+    <p class="lead">Answer three quick questions for an instant estimate. We'll confirm the exact price after a free inspection, with no obligation.</p>
+    <div class="contact">
+      <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--terra)" stroke-width="2.2" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 005 5L15 12l5 2v4a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2"/></svg><a href="tel:0491570156">0491 570 156</a></div>
+      <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--terra)" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>quotes@northshoreroofing.example</div>
+      <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--terra)" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Mon–Sat, 7am–6pm</div>
+    </div>
+    <p style="margin-top:24px;font-weight:700">Pay your way</p>
+    <div class="pay"><span>Visa</span><span>Mastercard</span><span>Amex</span><span>Apple Pay</span><span>Google Pay</span><span>Bank transfer</span><span>Interest-free plans</span></div>
+    <p class="note">10% deposit to book, balance on completion. No payment until you've signed off the work.</p>
+  </div>
+  <div class="wiz rv" id="wiz">
+    <div class="dots"><i class="on"></i><i></i><i></i></div>
+    <div class="pane on" data-s="0"><h3>What do you need?</h3><div class="opts" id="oSvc"></div><p class="err" id="e0"></p><div class="nav2"><span></span><button class="btn primary" data-next type="button">Next</button></div></div>
+    <div class="pane" data-s="1"><h3>Tell us about your home</h3><div class="opts" id="oSize"></div><div class="est"><span>Typical price for this job</span><b id="estV">Pick a size</b><small class="note" style="margin:0">Includes GST, labour and materials. Final fixed price after free inspection.</small></div><p class="err" id="e1"></p><div class="nav2"><button class="btn ghost" data-back type="button">Back</button><button class="btn primary" data-next type="button">Next</button></div></div>
+    <div class="pane" data-s="2"><h3>Where should we send your quote?</h3>
+      <div class="row"><label for="qName">Name<input id="qName" autocomplete="name"></label><label for="qPhone">Mobile<input id="qPhone" type="tel" autocomplete="tel" inputmode="tel"></label></div>
+      <label for="qSub">Suburb<input id="qSub" list="subList" autocomplete="off"></label>
+      <label for="qMsg">Anything we should know? (optional)<textarea id="qMsg" placeholder="e.g. water stain on the bedroom ceiling after last week's rain"></textarea></label>
+      <p class="err" id="e2"></p>
+      <div class="nav2"><button class="btn ghost" data-back type="button">Back</button><button class="btn primary" id="send" type="button" data-track="quote_submit">Get my free quote</button></div></div>
+    <div class="pane done" data-s="3" role="status"><svg width="64" height="64" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="var(--terra)"/><path d="M19 33l9 9 17-19" fill="none" stroke="#fff" stroke-width="5"/></svg><h3 id="dT">Request received</h3><p id="dM" class="lead" style="margin:0"></p><p class="note">This is a demo, so nothing was sent. On the live site this goes straight to the owner's phone and email, with an SMS confirmation to the customer.</p></div>
+  </div>
+</div></section>
+
+<section class="band soft" id="faq"><div class="wrap" style="max-width:860px">
+  <h2 class="rv" style="margin-bottom:12px">Common questions</h2>
+  <div id="faqs"></div>
+</div></section>
+
+<footer class="band"><div class="wrap">
+  <div><h3>Northshore Roofing</h3><p>Roof restorations, repairs and re-roofs across Perth. Owner-operated, licensed and insured.</p></div>
+  <div><h3>Contact</h3><p>0491 570 156<br>quotes@northshoreroofing.example<br>Mon–Sat, 7am–6pm</p></div>
+  <div><h3>Services</h3><p>Restorations<br>Leak repairs<br>Re-roofing<br>Gutters &amp; downpipes</p></div>
+  <div><h3>Policies</h3><p>10-year warranty<br>Rain-delay rescheduling free<br>Privacy: we never share your details</p></div>
+</div></footer>
+
+<a class="fab" href="sms:0491570156" aria-label="Text us on 0491 570 156" data-track="fab_text"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></a>
+<div class="mbar"><a class="btn ghost" href="tel:0491570156" data-track="bar_call">Call now</a><a class="btn primary" href="#quote" data-track="bar_quote">Instant estimate</a></div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Project close-up"><button id="lbX" type="button" aria-label="Close">×</button><div><div id="lbImg"></div><p id="lbCap"></p></div></div>
+
+<script>
+{
+document.documentElement.classList.add("js");
+const $ = (id) => document.getElementById(id);
+const track = (ev) => { (window.dataLayer = window.dataLayer || []).push({event: ev}); };
+document.addEventListener("click", e => { const t = e.target.closest("[data-track]"); if (t) track(t.dataset.track); });
+
+const ic = (d) => `<svg viewBox="0 0 52 52" aria-hidden="true"><rect width="52" height="52" rx="12" fill="var(--soft)"/><g fill="none" stroke="var(--terra)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">${d}</g></svg>`;
+const svcs = [
+  ["Roof restoration","Clean, repair, rebed, repoint and recoat tired tile roofs so they look and perform like new.","From $4,500",'<path d="M10 30L26 16l16 14"/><path d="M15 26v12h22V26"/>'],
+  ["Leak detection & repairs","We find the real source of the leak, fix it and send you photos of the repair.","From $350",'<path d="M26 12c6 8 10 13 10 18a10 10 0 01-20 0c0-5 4-10 10-18z"/>'],
+  ["Re-roofing to Colorbond","Swap old tiles or asbestos for a modern Colorbond roof with new insulation and gutters.","From $14,000",'<path d="M10 22h32M10 30h32M10 38h32M14 14h24"/>'],
+  ["Ridge capping","Loose or cracked ridge caps rebedded and repointed with flexible pointing that lasts.","From $900",'<path d="M10 34l16-14 16 14"/><path d="M18 34l8-7 8 7"/>'],
+  ["Gutters & downpipes","Cleaning, repairs and full replacement in any Colorbond colour.","From $250",'<path d="M10 18h32v6a6 6 0 01-6 6H16a6 6 0 01-6-6z"/><path d="M34 30v12"/>'],
+  ["Roof inspections","A detailed photo report for buyers, sellers and insurance claims.","$180",'<circle cx="24" cy="24" r="9"/><path d="M31 31l9 9"/>']
+];
+$("svcs").innerHTML = svcs.map(([t,d,p,i]) => `<div class="card svc rv">${ic(i)}<h3>${t}</h3><p>${d}</p><span class="from">${p}</span></div>`).join("");
+
+const jobs = [["Full restoration","Restoration","Duncraig","tNew","#b8d9f0"],["Tile to Colorbond","Re-roof","Kingsley","tSheet","#cfe3f2"],["Ridge rebed & repoint","Repairs","Hillarys","tNew","#f3d9b8"],["Leak repair, valley iron","Repairs","Sorrento","tOld","#d6e6f4"],["Terracotta restoration","Restoration","Mullaloo","tNew","#ffd9c2"],["Asbestos re-roof","Re-roof","Joondalup","tSheet","#e2eef7"]];
+const pic = (fill, sky) => `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="300" fill="${sky}"/><rect y="240" width="400" height="60" fill="#7fa66a"/><rect x="90" y="170" width="220" height="80" fill="#efe2d4"/><path d="M60 175 L200 80 L340 175Z" fill="url(#${fill})"/><path d="M60 175 L200 80 L340 175" fill="none" stroke="#3b4247" stroke-width="5"/><rect x="180" y="195" width="40" height="55" fill="#3b4247"/><rect x="110" y="190" width="50" height="35" fill="#9fc6e6"/><rect x="240" y="190" width="50" height="35" fill="#9fc6e6"/></svg>`;
+$("gal").innerHTML = jobs.map(([t,c,s,f,k],i) => `<button class="shot rv" type="button" data-c="${c}" data-i="${i}">${pic(f,k)}<span>${t}</span><small>${s} · ${c}</small></button>`).join("");
+const cats = ["All","Restoration","Re-roof","Repairs"];
+$("chips").innerHTML = cats.map((c,i) => `<button class="chip" type="button" aria-pressed="${i===0}" data-c="${c}">${c}</button>`).join("");
+$("chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  $("chips").querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.querySelectorAll(".shot").forEach(s => s.classList.toggle("hide", b.dataset.c !== "All" && s.dataset.c !== b.dataset.c));
+});
+const lb = $("lb");
+$("gal").addEventListener("click", e => {
+  const s = e.target.closest(".shot"); if (!s) return;
+  const [t,c,sub,f,k] = jobs[s.dataset.i];
+  $("lbImg").innerHTML = pic(f,k); $("lbCap").textContent = `${t} · ${sub}`;
+  lb.classList.add("on"); $("lbX").focus();
+});
+const closeLb = () => lb.classList.remove("on");
+$("lbX").addEventListener("click", closeLb);
+lb.addEventListener("click", e => { if (e.target === lb) closeLb(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeLb(); });
+
+const steps = [["Get an estimate","Use the 30-second price tool or call. We reply the same day."],["Free inspection","We get up on the roof and photograph everything we find."],["Fixed written quote","One clear price with no surprises, usually within 48 hours."],["Job done right","Finished on time, site cleaned up, backed by a 10-year warranty."]];
+$("steps").innerHTML = steps.map(([t,d],i) => `<div class="step rv"><b>${i+1}</b><h3>${t}</h3><p>${d}</p></div>`).join("");
+
+const areas = ["Joondalup","Hillarys","Sorrento","Duncraig","Kingsley","Heathridge","Ocean Reef","Mullaloo","Wanneroo","Scarborough","Karrinyup","Stirling","Osborne Park","Innaloo","Balcatta","Currambine","Clarkson","Padbury","Craigie","Edgewater"];
+$("areaList").innerHTML = areas.map(a => `<span>${a}</span>`).join("");
+$("subList").innerHTML = areas.map(a => `<option value="${a}">`).join("");
+const checkSub = () => {
+  const v = $("sub").value.trim(); if (!v) return;
+  const hit = areas.find(a => a.toLowerCase() === v.toLowerCase());
+  $("subRes").textContent = hit ? `Yes! We regularly work in ${hit}. Get your estimate below.` : `We may still cover ${v}. Call 0491 570 156 and we'll let you know.`;
+  track("suburb_check");
+};
+$("subBtn").addEventListener("click", checkSub);
+$("sub").addEventListener("keydown", e => { if (e.key === "Enter") checkSub(); });
+
+const revs = [["Our 40-year-old roof looks brand new. He explained every step, sent photos and left the yard cleaner than he found it.","Sample review · Duncraig"],["Fixed a leak two other roofers couldn't find. Fair price, turned up exactly when he said he would.","Sample review · Hillarys"],["Tile to Colorbond re-roof finished in four days. Communication was excellent the whole way through.","Sample review · Kingsley"]];
+$("revs").innerHTML = revs.map(([t,w]) => `<div class="card rev rv"><b>★★★★★</b><p>${t}</p><small>${w}</small></div>`).join("");
+
+const faqs = [["How long does a roof restoration take?","Most homes take two to four days, depending on the size of the roof and the weather."],["Do I need to be home?","No. We only need access to the yard, and we send photos as we go so you can see the progress."],["Is restoration or re-roofing better for me?","If your tiles are mostly sound, restoration costs far less. If they're brittle, asbestos or badly damaged, a Colorbond re-roof is better long-term value. We'll tell you honestly which you need."],["What happens if it rains?","We reschedule at no cost and make sure your roof is watertight before we leave each day."],["Can you help with an insurance claim?","Yes. We provide a detailed photo report insurers accept and can liaise with your assessor."]];
+$("faqs").innerHTML = faqs.map(([q,a]) => `<details class="rv"><summary>${q}</summary><p>${a}</p></details>`).join("");
+
+const price = {"Roof restoration":[[4500,6000],[6000,8500],[8500,12000]],"Leak repair":[[350,900],[350,900],[350,900]],"Colorbond re-roof":[[14000,20000],[20000,28000],[28000,38000]],"Ridge capping":[[900,1500],[1500,2500],[2500,3500]],"Gutters":[[1200,2000],[2000,3000],[3000,4200]],"Not sure yet":[[350,900],[350,900],[350,900]]};
+const sizes = ["Small · 1–2 bedrooms","Medium · 3–4 bedrooms","Large · 5+ or two-storey"];
+const st = {svc:null,size:null,step:0};
+const opts = (el, list, key) => { el.innerHTML = list.map(v => `<button class="opt" type="button" aria-pressed="false">${v}</button>`).join(""); el.addEventListener("click", e => { const b = e.target.closest(".opt"); if (!b) return; el.querySelectorAll(".opt").forEach(x => x.setAttribute("aria-pressed", x === b)); st[key] = b.textContent; showEst(); }); };
+const fmt = (n) => "$" + n.toLocaleString("en-AU");
+const showEst = () => { if (!st.svc || st.size === null) { $("estV").textContent = "Pick a size"; return; } const r = price[st.svc][sizes.indexOf(st.size)]; $("estV").textContent = `${fmt(r[0])} – ${fmt(r[1])}`; };
+opts($("oSvc"), Object.keys(price), "svc");
+opts($("oSize"), sizes, "size");
+const go = (n) => { st.step = n; document.querySelectorAll(".pane").forEach(p => p.classList.toggle("on", +p.dataset.s === n)); document.querySelectorAll(".dots i").forEach((d,i) => d.classList.toggle("on", i <= Math.min(n,2))); };
+$("wiz").addEventListener("click", e => {
+  if (e.target.closest("[data-back]")) go(st.step - 1);
+  if (e.target.closest("[data-next]")) {
+    if (st.step === 0 && !st.svc) { $("e0").textContent = "Choose a service to continue."; return; }
+    if (st.step === 1 && !st.size) { $("e1").textContent = "Choose your home size to continue."; return; }
+    $("e0").textContent = $("e1").textContent = ""; track("quote_step_" + (st.step + 1)); go(st.step + 1);
+  }
+});
+$("send").addEventListener("click", () => {
+  const n = $("qName").value.trim(), ph = $("qPhone").value.replace(/\s/g, "");
+  if (!n || ph.length < 8) { $("e2").textContent = "Please add your name and a mobile number."; return; }
+  $("e2").textContent = "";
+  const ref = "NR-" + String(Date.now()).slice(-5);
+  $("dT").textContent = `Thanks ${n.split(" ")[0]}, you're booked in`;
+  $("dM").textContent = `Reference ${ref}. Your ${st.svc.toLowerCase()} estimate is ${$("estV").textContent}. We'll call within 2 hours on business days to arrange your free inspection.`;
+  go(3);
+});
+
+const ba = $("ba"), r = $("baRange");
+const setP = () => ba.style.setProperty("--p", r.value + "%");
+r.addEventListener("input", setP); setP();
+
+const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }), {threshold: .12, rootMargin: "0px 0px -40px 0px"});
+document.querySelectorAll(".rv").forEach(el => io.observe(el));
+
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const nr = $("newRoof"), sun = $("sun"), prog = $("prog");
+let ticking = false;
+const onScroll = () => {
+  const y = scrollY, h = document.documentElement.scrollHeight - innerHeight;
+  prog.style.setProperty("--s", h > 0 ? (y / h).toFixed(3) : 0);
+  if (!reduce) {
+    const k = Math.min(1, y / (innerHeight * 0.7));
+    nr.setAttribute("width", 280 + k * 280);
+    sun.setAttribute("transform", `translate(0 ${y * 0.15})`);
+  }
+  ticking = false;
+};
+addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, {passive: true});
+onScroll();
+}
+</script>
+</body>
+</html>
